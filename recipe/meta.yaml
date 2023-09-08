@@ -27,6 +27,10 @@ test:
   imports:
     - questionary
     - questionary.prompts
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/tmbo/questionary
